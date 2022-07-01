@@ -2458,7 +2458,8 @@ declare module 'mongoose' {
     SetExpressionOperatorReturningBoolean |
     LiteralExpressionOperatorReturningAny |
     CustomAggregationExpressionOperatorReturningAny |
-    TypeExpressionOperatorReturningBoolean;
+    TypeExpressionOperatorReturningBoolean|
+    ArrayExpressionOperatorReturningBoolean;
 
   export type NumberExpression =
     number |
